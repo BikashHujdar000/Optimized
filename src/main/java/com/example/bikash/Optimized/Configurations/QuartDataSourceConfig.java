@@ -17,9 +17,9 @@ public class QuartDataSourceConfig {
     public DataSource quartzDataSource() {
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        hikariConfig.setJdbcUrl("jdbc:sqlserver://103.94.159.179:1433;databaseName=qt_db;encrypt=true;trustServerCertificate=true;");
-        hikariConfig.setUsername("sa");
-        hikariConfig.setPassword("_SBD@t@S0lution12!@");
+        hikariConfig.setJdbcUrl("");
+        hikariConfig.setUsername("");
+        hikariConfig.setPassword("");
         hikariConfig.setMaximumPoolSize(10);
         hikariConfig.setMinimumIdle(2);
         hikariConfig.setIdleTimeout(30000);
