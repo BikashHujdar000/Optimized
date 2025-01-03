@@ -35,9 +35,9 @@ public class QuartzConfig {
         quartzProperties.put("org.quartz.jobStore.dataSource", "quartzDataSource");
         quartzProperties.put("org.quartz.dataSource.quartzDataSource.provider", "hikaricp"); // Use HikariCP
         quartzProperties.put("org.quartz.dataSource.quartzDataSource.driver", "com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        quartzProperties.put("org.quartz.dataSource.quartzDataSource.URL", "jdbc:sqlserver://103.94.159.179:1433;databaseName=qt_db;encrypt=true;trustServerCertificate=true;");
-        quartzProperties.put("org.quartz.dataSource.quartzDataSource.user", "sa");
-        quartzProperties.put("org.quartz.dataSource.quartzDataSource.password", "_SBD@t@S0lution12!@");
+        quartzProperties.put("org.quartz.dataSource.quartzDataSource.URL", "");
+        quartzProperties.put("org.quartz.dataSource.quartzDataSource.user", "");
+        quartzProperties.put("org.quartz.dataSource.quartzDataSource.password", "");
         quartzProperties.put("org.quartz.dataSource.quartzDataSource.maxConnections", "10");
         quartzProperties.put("org.quartz.dataSource.quartzDataSource.idleTimeout", "30000");
         quartzProperties.put("org.quartz.dataSource.quartzDataSource.connectionTimeout", "20000");
