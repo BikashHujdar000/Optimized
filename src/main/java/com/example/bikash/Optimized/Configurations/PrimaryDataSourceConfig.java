@@ -30,9 +30,9 @@ public class PrimaryDataSourceConfig {
     public DataSource primaryDataSource() {
         return DataSourceBuilder.create()
                 .driverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver")
-                .url("jdbc:sqlserver://103.94.159.179:1433;databaseName=test_qt;encrypt=true;trustServerCertificate=true;")
-                .username("sa")
-                .password("_SBD@t@S0lution12!@")
+                .url("")
+                .username("")
+                .password(")
                 .build();
     }
 
